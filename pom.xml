@@ -51,12 +51,7 @@
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
 
-        <!-- Thymeleaf extras for Spring Security -->
-        <dependency>
-            <groupId>org.thymeleaf.extras</groupId>
-            <artifactId>thymeleaf-extras-springsecurity6</artifactId>
-            <version>3.1.0</version>
-        </dependency>
+        <!-- Removed Thymeleaf extras for Spring Security -->
 
         <!-- H2 Database -->
         <dependency>
