@@ -37,6 +37,7 @@
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
+            <version>3.0.3</version> <!-- Add appropriate version -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -48,7 +49,8 @@
         </dependency>
         <dependency>
             <groupId>org.thymeleaf.extras</groupId>
-            <artifactId>thymeleaf-extras-springsecurity6</artifactId> <!-- Updated for compatibility -->
+            <artifactId>thymeleaf-extras-springsecurity6</artifactId>
+            <version>3.0.4</version> <!-- Update version if necessary -->
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -67,6 +69,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.31</version> <!-- Add appropriate version -->
             <scope>runtime</scope>
         </dependency>
         <dependency>
