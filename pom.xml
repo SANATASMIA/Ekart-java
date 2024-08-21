@@ -36,11 +36,11 @@
             <artifactId>spring-boot-starter-data-rest</artifactId>
         </dependency>
 
-        <!--HAL REST Browser -->
+        <!-- HAL REST Browser -->
         <dependency>
             <groupId>org.springframework.data</groupId>
             <artifactId>spring-data-rest-hal-browser</artifactId>
-            <version>3.3.2</version> <!-- Update this to the correct version -->
+            <version>3.3.2</version>
         </dependency>
 
         <!-- Spring Security -->
@@ -75,16 +75,16 @@
             <scope>runtime</scope>
         </dependency>
 
-        <!-- H2 -->
+        <!-- H2 Database -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- MySQL -->
+        <!-- MySQL Connector/J -->
         <dependency>
-            <groupId>com.mysql</groupId>
+            <groupId>mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <version>8.0.31</version>
             <scope>runtime</scope>
@@ -97,14 +97,14 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- Optional, for bootstrap -->
+        <!-- Bootstrap (WebJars) -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>bootstrap</artifactId>
             <version>5.1.3</version>
         </dependency>
 
-        <!-- Optional, for jQuery -->
+        <!-- jQuery (WebJars) -->
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
